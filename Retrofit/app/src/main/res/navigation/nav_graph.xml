@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MapsFragment">
+
+    <fragment
+        android:id="@+id/MapsFragment"
+        android:name="com.example.mapsassignment.MapsFragment"
+        android:label="@string/maps_fragment_label"
+        tools:layout="@layout/fragment_maps">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/MapsFragmentuoc"
+        android:name="com.example.mapsassignment.MapsFragmentuoc"
+        android:label="@string/maps_fragment_label"
+        tools:layout="@layout/fragment_maps_fragmentuoc">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/MapsFragmentuom"
+        android:name="com.example.mapsassignment.MapsFragmentuom"
+        android:label="@string/maps_fragment_label"
+        tools:layout="@layout/fragment_maps_fragmentuom">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/MapsFragmentuoj"
+        android:name="com.example.mapsassignment.MapsFragmentuoj"
+        android:label="@string/maps_fragment_label"
+        tools:layout="@layout/fragment_maps_fragmentuoj">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/MapsFragmentuop"
+        android:name="com.example.mapsassignment.MapsFragmentuop"
+        android:label="@string/maps_fragment_label"
+        tools:layout="@layout/fragment_maps_fragmentuop">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/MapsFragmentuos"
+        android:name="com.example.mapsassignment.MapsFragmentuos"
+        android:label="@string/maps_fragment_label"
+        tools:layout="@layout/fragment_maps_fragmentuos">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/MapsFragmentuojaff"
+        android:name="com.example.mapsassignment.MapsFragmentuojaff"
+        android:label="@string/maps_fragment_label"
+        tools:layout="@layout/fragment_maps_fragmentuojaff">
+
+    </fragment>
+
+    <activity
+        android:id="@+id/MainActivity"
+        android:name="com.example.mapsassignment.MainActivity"
+        android:label="@string/main_activity_label"
+        tools:layout="@layout/activity_main">
+
+    <action
+        android:id="@+id/action_MainActivity_to_MapsFragment"
+        app:destination="@id/MapsFragment" />
+        <action
+            android:id="@+id/action_MainActivity_to_MapsFragmentuoc"
+            app:destination="@id/MapsFragmentuoc" />
+        <action
+            android:id="@+id/action_MainActivity_to_MapsFragmentuom"
+            app:destination="@id/MapsFragmentuom" />
+        <action
+            android:id="@+id/action_MainActivity_to_MapsFragmentuoj"
+            app:destination="@id/MapsFragmentuoj" />
+        <action
+            android:id="@+id/action_MainActivity_to_MapsFragmentuop"
+            app:destination="@id/MapsFragmentuop" />
+        <action
+            android:id="@+id/action_MainActivity_to_MapsFragmentuos"
+            app:destination="@id/MapsFragmentuos" />
+        <action
+            android:id="@+id/action_MainActivity_to_MapsFragmentuojaff"
+            app:destination="@id/MapsFragmentuojaff" />
+    </activity>
+
+</navigation>
